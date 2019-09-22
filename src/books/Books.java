@@ -35,4 +35,10 @@ public class Books {
         this.ISBN = ISBN;
     }
 
+    @Override
+    public String toSring() {
+        return
+                ("Book Name:" + bookName + "\nAuthor Name:" + authorName + "\nISBN;" + ISBN);
+    }
 }
+
