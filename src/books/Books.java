@@ -5,3 +5,17 @@ public class Books {
     private String authorName;
     private long ISBN;
 
+    public String getBookName() {
+        return bookName;
+    }
+
+    public String getAuthorName() {
+        return authorName;
+    }
+
+    public long getISBN() {
+        return ISBN;
+    }
+
+
+}
