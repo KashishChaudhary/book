@@ -28,4 +28,11 @@ public class Books {
     public void setISBN(long ISBN) {
         this.ISBN = ISBN;
     }
+
+    public Books(String bookName, String authorName, long ISBN) {
+        this.bookName = bookName;
+        this.authorName = authorName;
+        this.ISBN = ISBN;
+    }
+
 }
