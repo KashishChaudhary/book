@@ -37,15 +37,15 @@ public class Books {
     }
 
     @Override
-    public String toSring() {
+    public String toString() {
         return
                 ("Book Name:" + bookName + "\nAuthor Name:" + authorName + "\nISBN;" + ISBN);
     }
 }
 
 class Test {
-    public static void main(String)[] args {
-        System.out.println("enter the no of book:s");
+    public static void main(String[] args) {
+        System.out.println("enter the no of books");
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         String bookName[] = new String[n];
